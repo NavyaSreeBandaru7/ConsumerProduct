@@ -1,0 +1,7 @@
+streamlit>=1.22.0
+numpy==1.26.4  # Critical fix for Python 3.12 compatibility
+spacy==3.7.4
+matplotlib>=3.7.1
+setuptools>=68.0.0
+cython>=3.0.0  # Required for proper binary builds
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl
